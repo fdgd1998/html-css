@@ -1,0 +1,42 @@
+/*Selectores*/
+/*Universal*/
+* {
+    font-family:Verdana;
+    color: brown;
+    text-align:justify;
+}
+
+/*De etiqueta*/
+h1 {
+    font-style:italic;
+    color: blue;
+}
+
+/*De clase*/
+.estilo1 {
+    font-family:Arial;
+    background-color: aquamarine;
+
+}
+
+/* De ID*/
+#estilo1 {
+    font-size:0.5em;
+    text-align: center;
+    font-family:Arial, Verdana;
+}
+/*Descendente*/
+p strong {color:blueviolet; 
+         font-style:thick;
+         font-size: 2em;
+         color:green;
+}
+
+/*Adyacente*/
+h2 + h3 {
+        color: darkorange;
+        text-align:center;
+}
+
+/*De atributos, este no me funciona, pero no sé por qué*/
+p [class] {text-align:center;}

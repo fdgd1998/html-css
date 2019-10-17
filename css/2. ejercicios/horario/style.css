@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred;
+    text-align: center;    
+}
+
+.par {
+    background-color: rgba(0, 183, 255, .3);
+
+}
+
+.impar {
+    background-color: rgba(102, 255, 0, 0.3);
+}
+
+.vip {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+body {
+    background-image: url("escudo.png");
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+ p.hora {
+     display:inline;
+     color: green;
+     font-weight: bold;
+ }
+table {
+    border: 5px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+table.th {
+    font-weight: bold;
+}
+
+td,th,tr {
+    width: 10%;
+    padding: 2%;
+    border: 1px solid black;
+}
