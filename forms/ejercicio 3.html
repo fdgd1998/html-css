@@ -1,0 +1,61 @@
+<!DOCTYPE htmL>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios HTML5 - Ejercicio 2</title>
+    <style>
+        div {padding-bottom: 2%;}
+    </style>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="" method="/php/insertar_cv.php">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <div>
+                <label>Nombre</label>
+                <input name="nombre" type="text" size="20" maxlenght="20">
+            </div>
+            <div>
+                <label>Descripción</label>
+                <textarea name="descripcion" cols="20" rows="7"></textarea>
+            </div>
+            <div>
+                <label>Foto</label>
+                <input name="file" type="file">
+            </div>
+            <input name="visit_counter" type="checkbox"> Añadir contador de visitas <br><br>
+        <fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <div>
+                <label>Precio</label>
+                <input name="precio" type="number" size="7"> &euro;
+            </div>    
+        </fieldset>
+        <br>        
+        <label>Provincia</label>
+            <select id="so" name="provincia">
+                <option value="">- selecciona -</option>
+                <option value="malaga">Málaga</option>
+                <option value="granada">Granada</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="jaen">Jaén</option>
+                <option value="almeria">Almería</option>
+                <option value="cordona">Códoba</option>
+                <option value="huelva">Huelva</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <label>Impuestos</label>
+            <select id="so" name="impuestos">
+                <option value="4">4€</option>
+                <option value="7">7€</option>
+                <option value="16">16€</option>
+                <option value="25">25€</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>

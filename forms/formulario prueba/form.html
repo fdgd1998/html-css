@@ -1,0 +1,74 @@
+<!DOCTYPE htmL>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios HTML5</title>
+</head>
+<body>
+    <h1>Sign up for our E-Mail Newsletter</h1>
+    <form action="" method="GET">
+        <div>
+            <label>First Name: </label>
+            <input name="firstname" type="text" size="15">
+        </div>
+        <div>
+            <label>Last name: </label>
+            <input name="lastname" type="text" size="30">
+        </div>
+        <div>
+            <label>Title: </label>
+            <input name="title" type="text" size="20">
+        </div>
+        <div>
+            <label>Organization: </label>
+            <div id="padding">
+                <input name="organization" type="text"><br>
+                <input name="orgtype" type="radio"> nonprofit
+                <input name="orgtype" type="radio"> foundation
+                <input name="orgtype" type="radio"> consulting firm
+                <input name="orgtype" type="radio"> 
+            </div>
+        </div>
+        <div>
+            <label>Street address: </label>
+            <input name="address1" type="text" size="30"><br>
+            <input id="padding" name="address2" type="text" size="30">
+        </div>
+        <div>
+            <label>City: </label>
+            <input name="city" type="text" size="10">
+        </div>
+        <div>
+            <label>State: </label>
+            <input name="state" type="text" size="2">
+        </div>
+        <div>
+            <label>Country: </label>
+            <input name="country" type="text" size="10">
+        </div>
+        <div>
+            <label>Zip or postal code: </label>
+            <input name="zip" type="text" size="5">
+        </div>
+        <div>
+            <label id="label">E-Mail address: </label>
+            <input name="id" type="text" size="20">
+            &#64; <!-- @ -->
+            <input name="domain" type="text" size="10">
+        </div>
+        
+    <div>
+        <label>Voice phone: </label>
+        &#40;<input name="prefix" type="number" size="3" maxlength="3">&#41;
+        <input name="number" type="number" size="9">
+        <label id="ext">Ext. </label>
+        <input name="ext" type="number" size="5">
+    </div>
+    <div>
+        <label>Fax: </label>
+        &#40;<input name="fax_prefix" type="number" size="3" maxlength="3">&#41;
+        <input name="fax_number" type="number" size="9">
+    </div>
+    </form>
+</body>
+</html>

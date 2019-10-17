@@ -1,0 +1,12 @@
+div label {
+    float: left;
+    text-align: right;
+    background-color: lightblue;
+    width: 20%;
+}
+div #padding {
+    margin-left: 20%;
+}
+label #ext {
+    float: unset;
+}

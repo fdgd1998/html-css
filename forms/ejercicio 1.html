@@ -1,0 +1,41 @@
+<!DOCTYPE htmL>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios HTML5 - Ejercicio 1</title>
+    <style>
+        div label {float: left; width: 20%;}
+        .sexo, .archivo {padding-bottom: 2%;}
+    </style>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="" method="/php/insertar_cv.php">
+        <div>
+            <label>Nombre</label><br>
+            <input name="nombre" type="text" size="30" maxlenght="30"><br>
+        </div>
+        <div>
+            <label>Apellidos</label><br>
+            <input name="apellidos" type="text" size="80" maxlenght="80"><br>
+        </div>
+        <div>
+            <label>Contraseña</label><br>
+            <input name="pass" type="password" size="10" maxlenght="10"><br>
+        </div>
+        <div class="sexo">
+            <label>Sexo</label><br>
+            <input name="sexo" type="radio" value="H"> Hombre <br>
+            <input name="sexo" type="radio" value="M"> Mujer <br>
+        </div>
+        <div class="archivo">
+            <label>Incluir mi foto</label>
+            <input name="file" type="file">
+        </div>
+        <input name="boletin" type="checkbox" checked> Suscribirme al boletín de novedades <br><br>
+        <div>
+            <input name="enviar" type="submit" value="Enviar">
+            <input name="cancerlar" type="reset" value="Cancelar">
+        </div>
+    </form>
+</body>
+</html>

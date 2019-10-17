@@ -1,0 +1,64 @@
+<!DOCTYPE htmL>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios HTML5 - Ejercicio 2</title>
+    <style>
+        div {padding-bottom: 2%;}
+    </style>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="" method="/php/insertar_cv.php">
+        <fieldset>
+        <legend>Datos personales</legend>
+        <div>
+            <label>Provincia</label><br>
+            <select id="so" name="provincia">
+                <option value="">- selecciona -</option>
+                <option value="malaga">Málaga</option>
+                <option value="granada">Granada</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="jaen">Jaén</option>
+                <option value="almeria">Almería</option>
+                <option value="cordona">Códoba</option>
+                <option value="huelva">Huelva</option>
+            </select>
+        </div>
+        <div>
+            <label>Fecha de nacimiento</label><br>
+            <input name="dia" type="text" maxlenght="2" size="2">
+             de 
+            <select id="so" name="mes">
+                <option value=""></option>
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+             de 
+            <input name="año" type="text" maxlenght="4" size="4">
+        </div>
+        <div>
+            <label>Temas de interés</label><br>
+            <select id="so2" name="interes" size="5">
+                <option value="bd">Admisnitración de bases de datos</option>
+                <option value="program">Análisis y programación</option>
+                <option value="arch">Arquitectura</option>
+                <option value="calidad">Calidad</option>
+                <option value="erp">ERP, CRM, Bussiness Intelligence</option>
+            </select>
+        </div>
+     
+        </fieldset>
+    </form>
+</body>
+</html>
