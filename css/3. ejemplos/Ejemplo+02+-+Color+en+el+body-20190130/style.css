@@ -1,0 +1,32 @@
+body {
+    background-color: #d3d3d3;
+}
+
+div.contenido {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    color: navy;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: gray;
+    text-align: justify;
+    margin-right: 20px;
+}
+h1 h2 p {
+    margin-left: 20px;
+}

@@ -1,0 +1,11 @@
+#padre{
+    background-color: red;
+    border: 5px black solid;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+}
+
+body {
+    background-color: #696969;
+}

@@ -1,0 +1,11 @@
+#padre {
+    border: 3px darkred solid;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#hijo {
+    border: 3px solid black;
+    padding: 27px 54px;
+}

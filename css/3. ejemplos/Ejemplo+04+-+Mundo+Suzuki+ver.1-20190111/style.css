@@ -1,0 +1,30 @@
+.contenido, .banner {
+    width: 750px;
+    text-align: justify;
+    margin: auto;
+}
+.banner {
+    background-color: #FFF;
+}
+
+img {
+    width: 760px;
+    height: 198px;
+    border: 3px solid black;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: darkblue;
+    letter-spacing: 4px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+}

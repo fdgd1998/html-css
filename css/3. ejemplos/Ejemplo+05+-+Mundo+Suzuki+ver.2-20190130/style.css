@@ -1,0 +1,24 @@
+body{
+    background-color: #E6E6FA;
+    background-image: url("imagenes/bg_page.png");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+div.contenido {
+    width: 750px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Calibri;
+    font-size: 32px;
+    color: darkred;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
